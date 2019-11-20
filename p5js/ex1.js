@@ -1,4 +1,5 @@
 //Variáveis tipo let nomeDaVar;
+  let numDiv;
 
 function setup() { //código que só corre uma vez
 
@@ -14,12 +15,6 @@ function setup() { //código que só corre uma vez
 }
 
 
-
-  let numDiv;
-
-function setup() {
-  createCanvas(400, 400);
-}
 function draw() {
   background( 184, 186, 248 );
   numDiv = 8;//map(mouseX,0,width,5,50);
@@ -59,9 +54,6 @@ function avatar(posX, posY, diam){
       fill(0)
   ellipse(posX+diam/6,posY+diam-8,diam/6);
   ellipse(posX-diam/6,posY+diam-8,diam/6);
-
-
-}
 
 
 }
