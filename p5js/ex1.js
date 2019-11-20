@@ -13,10 +13,10 @@ function setup() { //código que só corre uma vez
 
 }
 
-
-
   let numDiv;
 
+function setup() {
+  createCanvas(400, 400);
 
 function draw() {
   background( 184, 186, 248 );
