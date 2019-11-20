@@ -13,11 +13,13 @@ function setup() { //código que só corre uma vez
 
 }
 
+
+
   let numDiv;
 
 function setup() {
   createCanvas(400, 400);
-
+}
 function draw() {
   background( 184, 186, 248 );
   numDiv = 8;//map(mouseX,0,width,5,50);
